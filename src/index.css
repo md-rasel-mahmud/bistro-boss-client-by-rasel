@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 .drawer-side a.active {
-    color: white;
-  }
-  .drawer-side a {
-    background-color: transparent;
-  }
+  color: white;
+}
+.drawer-side a {
+  background-color: transparent;
+}
+
+.swal2-title {
+  text-transform: capitalize !important;
+}
